@@ -1,5 +1,7 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 div {
-    background-color: red;
     color: white;
     font-size: 32px;
     text-align: center;
@@ -15,4 +17,34 @@ p {
 button {
     background-color: orange;
     font-size: 18px;
+    float: right;
+}
+
+h1 {
+    text-align: center;
+    background-color: brown;
+    color: aliceblue;
+    padding: 20px;
+    font-size: 40px;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+ul li {
+    font-style: italic;
+    font-size: larger;
+}
+
+ol {
+    background-color: antiquewhite;
+}
+
+ol li {
+    color: grey;
+    /* margin-bottom: 5px; */
+    padding: 5px;
+
 }
